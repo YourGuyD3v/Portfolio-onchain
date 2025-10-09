@@ -1,0 +1,2 @@
+# Portfolio-on-chain
+Bringing the world on-chain. This portfolio showcases my journey in building decentralized applications and on-chain systems. Each project explores how blockchain technology can create transparent, trustless, and censorship-resistant solutions — from financial primitives to identity and governance tools. My goal is to contribute to a more open and verifiable digital world, one contract at a time.
