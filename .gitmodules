@@ -10,3 +10,6 @@
 [submodule "rupay/backend/lib/foundry-chainlink-toolkit"]
 	path = rupay/backend/lib/foundry-chainlink-toolkit
 	url = https://github.com/smartcontractkit/foundry-chainlink-toolkit
+[submodule "MultiSig-Wallet"]
+	path = MultiSig-Wallet
+	url = https://github.com/YourGuyD3v/MultiSig-Wallet.git
