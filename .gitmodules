@@ -1,0 +1,12 @@
+[submodule "rupay/backend/lib/forge-std"]
+	path = rupay/backend/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "rupay/backend/lib/openzeppelin-contracts"]
+	path = rupay/backend/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "rupay/backend/lib/chainlink"]
+	path = rupay/backend/lib/chainlink
+	url = https://github.com/smartcontractkit/chainlink
+[submodule "rupay/backend/lib/foundry-chainlink-toolkit"]
+	path = rupay/backend/lib/foundry-chainlink-toolkit
+	url = https://github.com/smartcontractkit/foundry-chainlink-toolkit
