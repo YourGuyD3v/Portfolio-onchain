@@ -1,19 +1,3 @@
-# Rupay Protocol
-
-A decentralized stablecoin protocol backed by exogenous collateral (ETH, BTC, USDC).
-
-## Overview
-
-Rupay is an overcollateralized stablecoin with the following properties:
-
-- **Pegged to USD**: 1 RUP = $1
-- **Decentralized**: Algorithmic stability mechanism
-- **Collateral Types**: 
-  - ETH 
-  - BTC
-  - Other  
-- **Minimum Collateral Ratio**: 200%
-
 ## Getting Started
 
 ### Prerequisites
@@ -25,7 +9,7 @@ Rupay is an overcollateralized stablecoin with the following properties:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/rupay.git
+git clone https://github.com/YourGuyD3v/rupay.git
 cd rupay
 ```
 
