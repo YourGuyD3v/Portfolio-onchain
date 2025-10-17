@@ -10,7 +10,7 @@ export default function Header() {
         <nav className="px-8 py-4.5 border-b-[1px] border-zinc-100 flex flex-row justify-between items-center bg-white xl:min-h-[77px]">
             <div className="flex items-center gap-2.5 md:gap-6">
                 <Link href="/" className="flex items-center gap-1 text-zinc-800">
-                    <Image src="/logo.png" alt="Rupay" width={56} height={56} />
+                    <Image src="/logo.svg" alt="Rupay" width={70} height={70} />
                     <h1 className="font-bold text-2xl hidden md:block">Rupay</h1>
                 </Link>
                 <Link
