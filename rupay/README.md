@@ -1,7 +1,7 @@
 <h1 align="center">Rupay Protocol</h1>
 
 <p align="center">
-  <img src="./logo.png" alt="Rupay Logo" width="500" height="500"/>
+  <img src="./logo.svg" alt="Rupay Logo" width="500" height="500"/>
 </p>
 
 <p align="center">
