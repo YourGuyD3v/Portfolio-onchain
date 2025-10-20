@@ -5,12 +5,12 @@
 DEFAULT_ANVIL_KEY := 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 
 help:
-    @echo "Usage:"
-    @echo "  make deploy [ARGS=...]\n    example: make deploy ARGS=\"--network sepolia\""
-    @echo ""
-    @echo "  make fund [ARGS=...]\n    Fund your contract with LINK"
-    @echo ""
-    @echo "  make test [ARGS=...]\n    example: make test ARGS=\"--mt testDepositAndMint\""
+	@echo "Usage:"
+	@echo "  make deploy [ARGS=...]\n    example: make deploy ARGS=\"--network sepolia\""
+	@echo ""
+	@echo "  make fund [ARGS=...]\n    Fund your contract with LINK"
+	@echo ""
+	@echo "  make test [ARGS=...]\n    example: make test ARGS=\"--mt testDepositAndMint\""
 
 all: clean remove install update build
 
@@ -40,11 +40,11 @@ anvil :; anvil -m 'test test test test test test test test test test test junk' 
 NETWORK_ARGS := --rpc-url http://localhost:8545 --private-key $(DEFAULT_ANVIL_KEY) --broadcast
 
 ifeq ($(findstring --network sepolia,$(ARGS)),--network sepolia)
-    NETWORK_ARGS := --rpc-url $(SEPOLIA_RPC_URL) --private-key $(PRIVATE_KEY) --broadcast --verify --etherscan-api-key $(ETHERSCAN_API_KEY) -vvvv
+	NETWORK_ARGS := --rpc-url $(SEPOLIA_RPC_URL) --private-key $(PRIVATE_KEY) --broadcast --verify --etherscan-api-key $(ETHERSCAN_API_KEY) -vvvv
 endif
 
 deploy:
-    @forge script script/DeployRup.s.sol:DeployRup $(NETWORK_ARGS)
+	@forge script script/DeployRup.s.sol:DeployRup $(NETWORK_ARGS)
 
 verify:
-    @forge verify-contract --chain-id 11155111 --num-of-optimizations 200 --watch --constructor-args $(CONSTRUCTOR_ARGS) --compiler-version v0.8.19 $(CONTRACT_ADDRESS) $(CONTRACT_NAME) $(ETHERSCAN_API_KEY)
+	@forge verify-contract --chain-id 11155111 --num-of-optimizations 200 --watch --constructor-args $(CONSTRUCTOR_ARGS) --compiler-version v0.8.19 $(CONTRACT_ADDRESS) $(CONTRACT_NAME) $(ETHERSCAN_API_KEY)

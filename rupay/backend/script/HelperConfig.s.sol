@@ -42,8 +42,8 @@ contract HelperConfig is Script {
             wbtcUsdSequencerFeed: address(0),
             wethStalePriceThreshold: 1 hours,
             wbtcStalePriceThreshold: 1 hours,
-            weth: 0xdd13E55209Fd76AfE204dBda4007C227904f0a81,
-            wbtc: 0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063,
+            weth: 0xEa2eA44ee93004D00e9c4cD871bc194Fd1991100,
+            wbtc: 0xf847B0fEdacEEab73608232E3A2DbD4e40F9797E,
             deployerKey: vm.envUint("PRIVATE_KEY")
         });
     }

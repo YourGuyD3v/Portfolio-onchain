@@ -13,7 +13,7 @@ contract DeployRup is Script {
     uint256[] public stalePriceThresholds;
 
     function run() external returns (Rupay, RupIssuer, HelperConfig) {
-        HelperConfig helperConfig = new HelperConfig(); // This comes with our mocks!
+        HelperConfig helperConfig = new HelperConfig();
 
         (
             address wethUsdPriceFeed,
