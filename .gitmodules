@@ -13,3 +13,6 @@
 [submodule "MultiSig-Wallet"]
 	path = MultiSig-Wallet
 	url = https://github.com/YourGuyD3v/MultiSig-Wallet.git
+[submodule "rupay"]
+	path = rupay
+	url = https://github.com/YourGuyD3v/Rupay.git
