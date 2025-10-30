@@ -16,3 +16,6 @@
 [submodule "rupay"]
 	path = rupay
 	url = https://github.com/YourGuyD3v/Rupay.git
+[submodule "kheecho"]
+	path = kheecho
+	url = https://github.com/YourGuyD3v/kheecho.git
